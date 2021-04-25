@@ -73,6 +73,7 @@ if (isset($_GET['id'])) {
                                     echo substr($post['title'], 0, 40) . "...";
                                 } else {
                                     echo $post['title'];
+                                    
                                 } ?></h1>
                         </a>
 
